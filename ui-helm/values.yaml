@@ -1,0 +1,22 @@
+replicaCount: 1
+
+image:
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "latest"
+
+service:
+  name: http
+  type: NodePort
+  protocol: TCP
+  port: 3000
+  targetport: 3000
+
+container:
+  name: soupabase
+  image: docker.io/vipdipp/soupabase
+
+ingress:
+  host: next-js.ua
+  path: /
+  pathType: Prefix

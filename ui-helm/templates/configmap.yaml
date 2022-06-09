@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-configmap
+data:
+  NEXT_PUBLIC_SUPABASE_ANON_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlyeXRnb3VueGpkdGJhemhlbXlsIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NTA5NjI1ODksImV4cCI6MTk2NjUzODU4OX0.9YNOg-3D504AZM0CI6NWAE9vePFVzaX7KS4OyZQswCA
+  NEXT_PUBLIC_SUPABASE_URL: https://yrytgounxjdtbazhemyl.supabase.co
