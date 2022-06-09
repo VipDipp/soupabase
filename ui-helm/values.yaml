@@ -17,6 +17,7 @@ container:
   image: docker.io/vipdipp/soupabase
 
 ingress:
+  service: nextjs-service
   host: next-js.ua
   path: /
   pathType: Prefix
